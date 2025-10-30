@@ -1,0 +1,58 @@
+body {
+    background: #f4faf7 !important;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #244350;
+}
+.sidebar {
+    background: linear-gradient(180deg, #47b297 0%, #246661 100%) !important;
+    color: #fff !important;
+}
+.sidebar .user-info { border-bottom: 1px solid #ffffff22 !important; }
+.sidebar .user-avatar {
+    background: #fff !important;
+    color: #2ca477;
+    box-shadow: 0 2px 8px #22816622;
+}
+.sidebar .fw-bold, .sidebar .user-email { color: #fff !important; }
+.sidebar .list-group-item {
+    background: transparent !important;
+    color: #d4f6ea !important;
+    border: none !important;
+}
+.sidebar .list-group-item.active, .sidebar .list-group-item:hover, .sidebar .list-group-item:focus {
+    background: #182030 !important;
+    color: #fff !important;
+    border-radius: 22px !important;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+.btn-primary, .nav-tabs .nav-link.active {
+    background: linear-gradient(90deg,#2ca477 60%, #47b297 ) !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: 0 2px 8px #2ca47722;
+}
+.btn, .form-control, .form-select {
+    border-radius: 0.85rem !important;
+}
+.tab-content, .card, .bg-white {
+    border-radius: 1.1rem !important;
+    box-shadow: 0 4px 16px #40738117 !important;
+}
+.nav-tabs .nav-link {
+    color: #246661;
+}
+a, .form-check-label {
+    color: #228166;
+}
+a:hover, .form-check-label:hover {
+    color: #0a4531;
+}
+.alert {
+    border-radius: 1.2em;
+}
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+    border-color: #47b297 !important;
+    box-shadow: 0 0 0 2px #47b29733 !important;
+}
